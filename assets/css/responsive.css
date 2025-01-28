@@ -1,0 +1,166 @@
+@media (max-width: 991px) {
+	.fixed-top .navbar-nav  {
+		position: absolute;
+		top: 100%;
+		left: 0;
+		right: 0;
+		background-color: var(--black-color);
+		border-top: 1px solid rgba(255, 255, 255, 0.2);
+		-ms-flex-direction: column;
+		flex-direction: column;
+		padding: 10px 20px;
+		display: none;
+		box-shadow: 0 0.125rem 0.25rem rgba(55, 55, 55, 0.075);
+	}
+}
+
+@media (max-width: 991px) {
+	.fixed-top .navbar-nav  > li {
+		padding: 8px 0;
+	}
+}
+
+@media (max-width: 1200px) {
+	.fixed-top.menu-open .navbar-nav  {
+		display: -ms-flexbox;
+		display: flex;
+		-ms-flex-align: start;
+		align-items: flex-start;
+	}
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	:root {
+		scroll-behavior: inherit;
+	}
+}
+
+@media (max-width: 1200px) {
+	.section {
+		padding-top: 80px;
+		padding-bottom: 80px;
+	}
+}
+
+@media (max-width: 767px) {
+	.section {
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+}
+
+@media (max-width: 767px) {
+	.section-heading {
+		margin-bottom: 35px;
+	}
+}
+
+@media (max-width: 767px) {
+	.section-heading h2 {
+		font-size: 35px;
+	}
+}
+
+@media (max-width: 1200px) {
+	.px-modal {
+		padding: 18px;
+	}
+}
+
+@media (min-width: 1201px) {
+	.owl-nav .owl-next {
+		right: -50px;
+	}
+}
+
+@media (min-width: 1201px) {
+	.owl-nav .owl-prev {
+		left: -50px;
+	}
+}
+
+@media (max-width: 991px) {
+	.home-section {
+		padding-top: 130px;
+	}
+}
+
+@media (max-width: 991px) {
+	.home-section .hs-text-box {
+		padding-bottom: 50px;
+	}
+}
+
+@media (max-width: 1200px) {
+	.home-section .hs-text-box h1 {
+		font-size: 45px;
+	}
+}
+
+@media (max-width: 767px) {
+	.home-section .hs-text-box h1 {
+		font-size: 38px;
+	}
+}
+
+@media (max-width: 1200px) {
+	.home-section .hs-text-box h2 {
+		font-size: 45px;
+		margin: 0 0 20px;
+	}
+}
+
+@media (max-width: 767px) {
+	.home-section .hs-text-box h2 {
+		font-size: 38px;
+		margin: 0 0 10px;
+	}
+}
+
+@media (max-width: 1200px) {
+	.home-section .hs-text-box .text {
+		font-size: 18px;
+	}
+}
+
+@media (max-width: 767px) {
+	.home-section .hs-text-box .text {
+		font-size: 16px;
+	}
+}
+
+@media (max-width: 991px) {
+	.about-section .effect-1 {
+		display: none;
+	}
+}
+
+@media (max-width: 991px) {
+	.about-section .effect-2 {
+		display: none;
+	}
+}
+
+@media (max-width: 767px) {
+	.ex-box .ex-right h5 {
+		font-size: 28px;
+	}
+}
+
+@media (max-width: 767px) {
+	.contactus-section .contactus-title h5 {
+		font-size: 32px;
+	}
+}
+
+@media (min-width: 992px) {
+	.contactus-section .contact-banner {
+		margin-top: -200px;
+	}
+}
+
+@media (max-width: 767px) {
+	.contactus-section .contact-info {
+		padding: 20px 0 25px;
+	}
+}
